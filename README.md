@@ -19,7 +19,7 @@
 
 /runs保存了训练的一些检查点等信息，包含了可以作为/detect.py可使用的.pt权重文件。上传了部分结果比较好的检查点。
 
-由于/dataset比较大因此就不上传到github了，有需要的话可以从https://trust-hub.org/#/data/fics-pcb下载压缩包，解压到/dataset/s{i}/中；然后以此运行/dataset_transform.ipynb以及/train_val.ipynb，将dataset的格式进行转换并划分；最后运行/train.py即可进行训练。
+由于/dataset比较大因此就不上传到github了，有需要的话可以从https://trust-hub.org/#/data/fics-pcb 下载压缩包，解压到/dataset/s{i}/中；然后以此运行/dataset_transform.ipynb以及/train_val.ipynb，将dataset的格式进行转换并划分；最后运行/train.py即可进行训练。
 
 /requirements.yaml为我的环境信息。（我的环境比较复杂，运行本项目应该只需要random/os/csv/shutil/opencv-Python/ultralytics这几个库就够了。如果是在跑不起来可以根据yaml装主包同款运行环境。）
 ```bash
