@@ -5,7 +5,7 @@
 
 使用YOLO搭建了一个识别PCB上贴片元件的模型。
 
-数据来源为https://trust-hub.org/#/data/fics-pcb。
+数据来源为https://trust-hub.org/#/data/fics-pcb 。
 
 ## 食用指南
 
